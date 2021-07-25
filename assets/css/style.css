@@ -1,0 +1,354 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Sycho - Psychology and Counseling HTML5 Template
+    Author: mdsalim400@gmail.com
+    Support: admin@gmail.com
+    Description: Psychology and Counseling HTML5 Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+Table of Contents
+
+01. Theme default CSS	
+02. Header CSS	
+03. Slider CSS	
+04. Features CSS	
+20. Event CSS	
+21. Footer CSS	
+00. Responsive CSS	
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------- */
+/* 01.Theme default CSS */
+/* ----------------------------------------------- */
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	line-height: 1.6;
+	overflow-x: hidden;
+	letter-spacing: .1rem;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* -----  Selection Color css ----- */
+::-moz-selection {
+	background: var(--color-00);
+	color: var(--secondary-color);
+}
+
+::selection {
+	background: var(--color-00);
+	color: var(--secondary-color);
+}
+/* -----  Scrollbar Css ----- */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 10px;
+    background: var(--primary-color);
+    border-left: 0px solid #fff;
+    border-right: 0px solid #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0;
+    height: 35%;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    background: var(--color-00);
+    border-left: 0px solid #fff;
+    border-right: 0px solid #fff;
+    border-right: 0px solid #fff;
+    cursor: pointer;
+}
+
+a,
+span,
+label {
+	display: inline-block;
+}
+
+ul li {
+    list-style: none;
+}
+
+a,
+a:focus {
+	text-decoration: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+button,
+input,
+textarea {
+	outline: 0;
+	border: 0;
+	background-color: transparent;
+}
+
+button {
+	cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+hr {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	opacity: 1;
+	background-color: transparent;
+}
+
+
+/* 
+=====================================
+Variables
+=====================================
+*/
+:root {
+	--size-50: 5rem;
+	--size-30: 3rem;
+	--size-25: 2.5rem;
+	--size-18: 1.8rem;
+	--size-16: 1.6rem;
+	--primary-color: #3A3D3E;
+	--secondary-color: #FFFFFF;
+	--color-00: #00AA55;
+	--color-99: #0099FF;
+}
+
+/* 
+=====================================
+Variables
+=====================================
+*/
+
+
+/* 
+==============================
+Font Size
+==============================
+*/
+.font-size-50 {
+	font-size: var(--size-50);
+}
+
+.font-size-30 {
+	font-size: var(--size-30);
+}
+
+.font-size-25 {
+	font-size: var(--size-25);
+}
+
+.font-size-18 {
+	font-size: var(--size-18);
+}
+
+.font-size-16 {
+	font-size: var(--size-16);
+}
+
+/* 
+=================================
+Font Color
+=================================
+*/
+.text-color-3a {
+	color: var(--primary-color);
+}
+
+.text-color-ff {
+	color: var(--secondary-color);
+}
+
+.text-color-00 {
+	color: var(--color-00);
+}
+
+.text-color-99 {
+	color: var(--color-99);
+}
+
+/* 
+====================================
+Background Color
+====================================
+*/
+.bg-color-3a {
+	background: var(--primary-color);
+}
+
+.bg-color-ff {
+	background: var(--secondary-color);
+}
+
+.bg-color-00 {
+	background: var(--color-00);
+}
+
+.bg-color-99 {
+	background: var(--color-99);
+}
+
+
+/* ----------------------------------------------- */
+/* START REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+section {
+	padding: 10rem 0;
+}
+
+.vh-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.transition-1 {
+	-webkit-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.transition-2 {
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background 0.2s;
+    border .2s,
+    color .2s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+/* ----------------------------------------------- */
+/* END REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------- */
+/* /* 02. START HEADER SECTION*/
+/* ----------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------- */
+/* /* END HEADER SECTION*/
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* /* 02. START HEADER SECTION*/
+/* ----------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------- */
+/* /* END HEADER SECTION*/
+/* ----------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------- */
+/* /* 02. START HEADER SECTION*/
+/* ----------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------- */
+/* /* END HEADER SECTION*/
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* /* 02. START HEADER SECTION*/
+/* ----------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------- */
+/* /* END HEADER SECTION*/
+/* ----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
